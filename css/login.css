@@ -1,0 +1,34 @@
+main {
+    height: 100vh;
+}
+
+main .h-login {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.container {
+    width: 45%;
+}
+
+.container form {
+    width: 50%;
+}
+
+.yellow-500 {
+    background-color: #ffc107;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .container form {
+        width: 100%;
+    }
+}
