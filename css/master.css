@@ -1,0 +1,92 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.w-10 {
+    width: 15%;
+}
+.px-10 {
+    padding: 0px 10px;
+}
+.container-fluid {
+    width: 75%;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+.w-45 {
+    width: 45%;
+}
+
+footer {
+    background-color: rgb(219, 219, 219);
+    padding-top: 100px;
+}
+
+footer .container div div {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 0 20px;
+    color: black;
+    line-height: 25px;
+}
+
+footer .container div p {
+    color: #555;
+}
+
+footer .container div .media {
+    width: 100%;
+    margin: 0;
+}
+
+footer .container .media i {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: rgb(29, 39, 51);
+    border-radius: 50%;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+footer .container div i:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+footer .container div ul li {
+    transition: 0.3s;
+}
+
+footer .container div ul li:hover {
+    transform: translateX(10px);
+}
+
+footer .container div ul .footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+footer .container .copy-right {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #00000025;
+    margin-top: 60px;
+}
+

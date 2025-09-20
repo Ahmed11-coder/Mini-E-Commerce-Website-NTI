@@ -1,0 +1,20 @@
+{
+  "name": "mini-e-commerce-website-nti",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ahmed11-coder/Mini-E-Commerce-Website-NTI#readme",
+  "bugs": {
+    "url": "https://github.com/Ahmed11-coder/Mini-E-Commerce-Website-NTI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed11-coder/Mini-E-Commerce-Website-NTI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+    height: 90vh;
+}
+
+.addPro h1 {
+    position: relative;
+}
+
+.addPro h1::before {
+    content: '';
+    width: 7%;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: -10px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.addPro .box:hover h1::before {
+    width: 15%;
+}
+
+.addPro img {
+    height: 80%;
+}

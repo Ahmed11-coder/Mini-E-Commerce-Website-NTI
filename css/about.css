@@ -1,0 +1,32 @@
+.container {
+    height: 90vh;
+}
+
+.about h1 {
+    position: relative;
+}
+
+.about h1::before {
+    content: '';
+    width: 7%;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: -10px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.about .info:hover h1::before {
+    width: 15%;
+}
+
+.about img {
+    height: 80%;
+}
+
+.about .info {
+    position: relative;
+    left: 50px;
+}
